@@ -60,7 +60,9 @@ const Home = () => {
             textAlign: 'center',
           }}
         >
-          <p style={{ fontSize: '18px' }}>Show products and information</p>
+          <p style={{ fontSize: '32px', fontFamily: 'Azonix' }}>
+            COMING SOON...
+          </p>
         </div>
       </div>
 
@@ -81,20 +83,28 @@ const Home = () => {
         <div className='logo'>
           <i
             className='fab fa-instagram logo-icon'
-            onClick={() => window.open('https://www.instagram.com/mathewfras/')}
+            onClick={() =>
+              window.open('https://www.instagram.com/scandiliciousnordic/')
+            }
           ></i>
           <i
             className='fab fa-facebook-f logo-icon'
-            onClick={() => window.open('https://www.facebook.com/crossfit')}
+            onClick={() =>
+              window.open(
+                'https://www.facebook.com/Scandilicious-Nordic-Nutrition-113323297123774'
+              )
+            }
           ></i>
           <i
             className='fab fa-twitter logo-icon'
-            onClick={() => window.open('https://twitter.com/crossfit')}
+            onClick={() => window.open('https://twitter.com/scandiliciousSE')}
           ></i>
           <i
             className='fab fa-pinterest-p logo-icon'
             onClick={() =>
-              window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
+              window.open(
+                'https://www.pinterest.co.uk/scandiliciousnordicnutrition/'
+              )
             }
           ></i>
         </div>
@@ -121,7 +131,6 @@ const Home = () => {
             textAlign: 'center',
           }}
         >
-          <p style={{ fontSize: '18px' }}>Mail and stuff</p>
           <p style={{ fontSize: '18px' }}>
             Copyright © 2020 Scandilicious - All Rights Reserved.
           </p>
