@@ -2,7 +2,7 @@
   "name": "scandilicious",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thatzita.github.io/scandiliciuos",
+  "homepage": "https://thatzita.github.io/scandilicious",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
