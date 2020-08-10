@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5d1a3890c57559d1975bce8fc8f955b9",
+    "revision": "998ff0d33937c23a625c9d0b350a6142",
     "url": "/scandiliciuos/index.html"
   },
   {
-    "revision": "7df729bb11588c2c99c8",
-    "url": "/scandiliciuos/static/css/main.3fd4d12c.chunk.css"
+    "revision": "c054a3ee94661fdafb9f",
+    "url": "/scandiliciuos/static/css/main.542a5762.chunk.css"
   },
   {
     "revision": "bbcd18c82308844374b7",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/scandiliciuos/static/js/2.c018ca84.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7df729bb11588c2c99c8",
-    "url": "/scandiliciuos/static/js/main.cef4a253.chunk.js"
+    "revision": "c054a3ee94661fdafb9f",
+    "url": "/scandiliciuos/static/js/main.8cd3d9a6.chunk.js"
   },
   {
     "revision": "2789c2e77b7f31076c55",
