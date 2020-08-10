@@ -1,13 +1,149 @@
-body {
+body,
+html {
+  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font: 400 15px/1.8 'Titillium Web', sans-serif;
+  color: #777;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Azonix';
+  src: url('./images/Azonix.otf');
+}
+.mainLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding-top: 15vh;
+}
+
+@media screen and (max-width: 767px) {
+  .mainLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 15vh;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .mainLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65vh;
+    padding-top: 15vh;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .mainLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    padding-top: 15vh;
+  }
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4 {
+  position: relative;
+  opacity: 0.9;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg-1 {
+  background-image: url('./images/first.jpg');
+  min-height: 100vh;
+}
+
+.bgimg-2 {
+  background-image: url('./images/second.jpg');
+  min-height: 800px;
+}
+
+.bgimg-3 {
+  background-image: url('./images/fourth.jpg');
+  min-height: 800px;
+}
+
+.bgimg-4 {
+  background-image: url('./images/third.jpg');
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-family: 'Azonix';
+}
+
+.caption span.border {
+  background-color: #000;
+  color: #fff;
+  padding: 18px;
+  font-size: 42px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px 'Lato', sans-serif;
+  color: #111;
+}
+
+.logo {
+  color: #ddd;
+  background-color: #282e34;
+  padding: 30px 80px;
+  text-align: center;
+}
+
+@media (min-width: 665px) {
+  .logo-icon {
+    font-size: 32px;
+    padding: 0 3.2rem;
+    cursor: pointer;
+  }
+  .logo {
+    color: #ddd;
+    background-color: #282e34;
+    padding: 30px 0px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 664px) {
+  .caption span.border {
+    background-color: #000;
+    color: #fff;
+    padding: 18px;
+    font-size: 28px;
+    letter-spacing: 8px;
+  }
+  .logo {
+    color: #ddd;
+    background-color: #282e34;
+    padding: 30px 0px;
+    text-align: center;
+  }
+  .logo-icon {
+    font-size: 32px;
+    padding: 0 1.2rem;
+    cursor: pointer;
+  }
 }
