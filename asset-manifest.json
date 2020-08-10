@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/scandiliciuos/static/css/main.542a5762.chunk.css",
-    "main.js": "/scandiliciuos/static/js/main.8cd3d9a6.chunk.js",
-    "main.js.map": "/scandiliciuos/static/js/main.8cd3d9a6.chunk.js.map",
-    "runtime-main.js": "/scandiliciuos/static/js/runtime-main.d9aa4381.js",
-    "runtime-main.js.map": "/scandiliciuos/static/js/runtime-main.d9aa4381.js.map",
-    "static/js/2.c018ca84.chunk.js": "/scandiliciuos/static/js/2.c018ca84.chunk.js",
-    "static/js/2.c018ca84.chunk.js.map": "/scandiliciuos/static/js/2.c018ca84.chunk.js.map",
-    "index.html": "/scandiliciuos/index.html",
-    "precache-manifest.69f1921c96fcdd8f5fa8ba694d8563cc.js": "/scandiliciuos/precache-manifest.69f1921c96fcdd8f5fa8ba694d8563cc.js",
-    "service-worker.js": "/scandiliciuos/service-worker.js",
-    "static/css/main.542a5762.chunk.css.map": "/scandiliciuos/static/css/main.542a5762.chunk.css.map",
-    "static/js/2.c018ca84.chunk.js.LICENSE.txt": "/scandiliciuos/static/js/2.c018ca84.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/scandiliciuos/static/media/third.8a429721.jpg",
-    "static/media/logo.png": "/scandiliciuos/static/media/logo.cd1cbf26.png"
+    "main.css": "/scandilicious/static/css/main.d260ca66.chunk.css",
+    "main.js": "/scandilicious/static/js/main.8cd3d9a6.chunk.js",
+    "main.js.map": "/scandilicious/static/js/main.8cd3d9a6.chunk.js.map",
+    "runtime-main.js": "/scandilicious/static/js/runtime-main.3f114952.js",
+    "runtime-main.js.map": "/scandilicious/static/js/runtime-main.3f114952.js.map",
+    "static/js/2.c018ca84.chunk.js": "/scandilicious/static/js/2.c018ca84.chunk.js",
+    "static/js/2.c018ca84.chunk.js.map": "/scandilicious/static/js/2.c018ca84.chunk.js.map",
+    "index.html": "/scandilicious/index.html",
+    "precache-manifest.ca3b5fd23c9ab1305d1bcbeca4bb4aeb.js": "/scandilicious/precache-manifest.ca3b5fd23c9ab1305d1bcbeca4bb4aeb.js",
+    "service-worker.js": "/scandilicious/service-worker.js",
+    "static/css/main.d260ca66.chunk.css.map": "/scandilicious/static/css/main.d260ca66.chunk.css.map",
+    "static/js/2.c018ca84.chunk.js.LICENSE.txt": "/scandilicious/static/js/2.c018ca84.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/scandilicious/static/media/third.8a429721.jpg",
+    "static/media/logo.png": "/scandilicious/static/media/logo.cd1cbf26.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d9aa4381.js",
+    "static/js/runtime-main.3f114952.js",
     "static/js/2.c018ca84.chunk.js",
-    "static/css/main.542a5762.chunk.css",
+    "static/css/main.d260ca66.chunk.css",
     "static/js/main.8cd3d9a6.chunk.js"
   ]
 }
