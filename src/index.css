@@ -4,6 +4,7 @@ html {
   margin: 0;
   font: 400 15px/1.8 'Titillium Web', sans-serif;
   color: #777;
+  background-color: snow;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -92,7 +93,7 @@ html {
 }
 
 .caption span.border {
-  background-color: #000;
+  background-color: rgb(40, 46, 52);
   color: #fff;
   padding: 18px;
   font-size: 42px;
@@ -112,6 +113,20 @@ h3 {
   padding: 30px 80px;
   text-align: center;
 }
+/* Animation */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+/* End of animation */
 
 @media (min-width: 665px) {
   .logo-icon {

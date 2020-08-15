@@ -1,42 +1,66 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from '../../images/logo.png';
 
 const Home = () => {
+  function FadeInSection(props) {
+    const [isVisible, setVisible] = React.useState(false);
+    const domRef = React.useRef();
+    React.useEffect(() => {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => setVisible(entry.isIntersecting));
+      });
+      observer.observe(domRef.current);
+    }, []);
+    return (
+      <div
+        className={`fade-in-section ${isVisible ? 'is-visible' : ''}`}
+        ref={domRef}
+      >
+        {props.children}
+      </div>
+    );
+  }
+
   return (
     <div className='flex-container'>
       <div className='bgimg-1'>
         <img src={logo} className='mainLogo' alt='Scandilicious Logo' />
       </div>
-      <div
-        style={{
-          color: '#777',
-          backgroundColor: 'white',
-          padding: '50px 20px',
-          textAlign: 'justify',
-        }}
-      >
-        <h3 style={{ textAlign: 'center', fontFamily: 'Azonix' }}>
-          ABOUT SCANDILICIOUS
-        </h3>
-        <p
-          style={{
-            fontSize: '18px',
-            textAlign: 'center',
-          }}
-        >
-          We believe that long term health and optimised performance are
-          achieved by living a sustainable and balanced life. We offer a 100%
-          plant based, protein rich alternative to snacks and treats - without
-          making you choose between nutrition and indulgence. Join us in
-          embracing the infamous Scandi lifestyle, where maximising your quality
-          of life does not compromise the future of our planet.
-        </p>
-        <p style={{ fontSize: '18px', textAlign: 'center' }}>
-          It’s Scandinavian. It’s delicious.
-          <br />
-          <strong>This is Scandilicious.</strong>
-        </p>
-      </div>
+      <FadeInSection key='snow'>
+        <div className='box' style={{ backgroundColor: 'snow' }}>
+          <div
+            style={{
+              color: '#777',
+              backgroundColor: 'snow',
+              padding: '50px 20px',
+              textAlign: 'justify',
+            }}
+          >
+            <h3 style={{ textAlign: 'center', fontFamily: 'Azonix' }}>
+              ABOUT SCANDILICIOUS
+            </h3>
+            <p
+              style={{
+                fontSize: '18px',
+                textAlign: 'center',
+              }}
+            >
+              We believe that long term health and optimised performance are
+              achieved by living a sustainable and balanced life. We offer a
+              100% plant based, protein rich alternative to snacks and treats -
+              without making you choose between nutrition and indulgence. Join
+              us in embracing the infamous Scandi lifestyle, where maximising
+              your quality of life does not compromise the future of our planet.
+            </p>
+            <p style={{ fontSize: '18px', textAlign: 'center' }}>
+              It’s Scandinavian. It’s delicious.
+              <br />
+              <strong>This is Scandilicious.</strong>
+            </p>
+          </div>
+        </div>
+      </FadeInSection>
+
       <div className='bgimg-2'>
         <div className='caption'>
           <span
@@ -75,7 +99,7 @@ const Home = () => {
               color: '#f7f7f7',
             }}
           >
-            SOCIAL MEDIA
+            CONNECT WITH US
           </span>
         </div>
       </div>
@@ -109,7 +133,7 @@ const Home = () => {
           ></i>
         </div>
       </div>
-      <div className='bgimg-4'>
+      {/* <div className='bgimg-4'>
         <div className='caption'>
           <span
             className='border'
@@ -121,7 +145,7 @@ const Home = () => {
             CONTACT US
           </span>
         </div>
-      </div>
+      </div> */}
       <div style={{ position: 'relative' }}>
         <div
           style={{
