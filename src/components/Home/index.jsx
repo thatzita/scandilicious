@@ -84,9 +84,46 @@ const Home = () => {
             textAlign: 'center',
           }}
         >
-          <p style={{ fontSize: '32px', fontFamily: 'Azonix' }}>
-            COMING SOON...
-          </p>
+          <FadeInSection key='snow'>
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <div
+                style={{
+                  cursor: 'pointer',
+                  width: '300px',
+                  height: '380px',
+                  border: '2px solid snow',
+                  padding: '15px',
+                  margin: '20px',
+                }}
+              >
+                EN PRODUKT
+              </div>
+              <div
+                style={{
+                  cursor: 'pointer',
+                  width: '300px',
+                  height: '380px',
+                  border: '2px solid snow',
+                  padding: '15px',
+                  margin: '20px',
+                }}
+              >
+                EN PRODUKT
+              </div>
+              <div
+                style={{
+                  cursor: 'pointer',
+                  width: '300px',
+                  height: '380px',
+                  border: '2px solid snow',
+                  padding: '15px',
+                  margin: '20px',
+                }}
+              >
+                EN PRODUKT
+              </div>
+            </div>
+          </FadeInSection>
         </div>
       </div>
 
