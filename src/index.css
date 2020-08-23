@@ -107,6 +107,25 @@ h3 {
   color: #111;
 }
 
+.broed-text {
+  font-size: 18px;
+  text-align: center;
+}
+
+.text {
+  font-size: 18px;
+}
+
+.test-produkt {
+  cursor: pointer;
+  width: 300px;
+  height: 380px;
+  border: 2px solid snow;
+  padding: 15px;
+  margin: 20px;
+  background-color: antiquewhite;
+}
+
 .logo {
   color: #ddd;
   background-color: #282e34;
@@ -162,3 +181,5 @@ h3 {
     cursor: pointer;
   }
 }
+
+/* test */

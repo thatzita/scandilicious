@@ -1,5 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import logo from '../../images/logo.png';
+
+import Card from './Card';
 
 const Home = () => {
   function FadeInSection(props) {
@@ -32,19 +34,14 @@ const Home = () => {
             style={{
               color: '#777',
               backgroundColor: 'snow',
-              padding: '50px 20px',
+              padding: '1em 2em',
               textAlign: 'justify',
             }}
           >
             <h3 style={{ textAlign: 'center', fontFamily: 'Azonix' }}>
               ABOUT SCANDILICIOUS
             </h3>
-            <p
-              style={{
-                fontSize: '18px',
-                textAlign: 'center',
-              }}
-            >
+            <p className='broed-text'>
               We believe that long term health and optimised performance are
               achieved by living a sustainable and balanced life. We offer a
               100% plant based, protein rich alternative to snacks and treats -
@@ -52,7 +49,7 @@ const Home = () => {
               us in embracing the infamous Scandi lifestyle, where maximising
               your quality of life does not compromise the future of our planet.
             </p>
-            <p style={{ fontSize: '18px', textAlign: 'center' }}>
+            <p className='broed-text'>
               It’s Scandinavian. It’s delicious.
               <br />
               <strong>This is Scandilicious.</strong>
@@ -80,47 +77,45 @@ const Home = () => {
           style={{
             color: '#ddd',
             backgroundColor: '#282E34',
-            padding: '50px 80px',
+            // padding: '50px 80px',
             textAlign: 'center',
           }}
         >
           <FadeInSection key='snow'>
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
-              <div
-                style={{
-                  cursor: 'pointer',
-                  width: '300px',
-                  height: '380px',
-                  border: '2px solid snow',
-                  padding: '15px',
-                  margin: '20px',
-                }}
-              >
-                EN PRODUKT
-              </div>
-              <div
-                style={{
-                  cursor: 'pointer',
-                  width: '300px',
-                  height: '380px',
-                  border: '2px solid snow',
-                  padding: '15px',
-                  margin: '20px',
-                }}
-              >
-                EN PRODUKT
-              </div>
-              <div
-                style={{
-                  cursor: 'pointer',
-                  width: '300px',
-                  height: '380px',
-                  border: '2px solid snow',
-                  padding: '15px',
-                  margin: '20px',
-                }}
-              >
-                EN PRODUKT
+            <div
+              style={{
+                display: 'flex',
+                position: 'relative',
+                justifyContent: 'center',
+                flexWrap: 'wrap',
+                padding: '1em',
+              }}
+            >
+              <Card />
+              <div class='card'>
+                <div class='image'>
+                  <img src='http://1.bp.blogspot.com/-EhPr4LXcywE/Udr594sPHTI/AAAAAAAAAJ4/Tv4y4CBLTPM/s400/Cristina-Otero-2.jpg' />
+                </div>
+                <div class='details'>
+                  <div class='center'>
+                    <h1>
+                      Someone famous
+                      <br />
+                      <span>team leader</span>
+                    </h1>
+                    <p>
+                      Lorem ipsum is simple dummy text on the printing and
+                      typesetting industry.
+                    </p>
+                    <ul>
+                      <li>
+                        <a href='#'>
+                          <p>LÄNK</p>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </FadeInSection>
@@ -192,7 +187,7 @@ const Home = () => {
             textAlign: 'center',
           }}
         >
-          <p style={{ fontSize: '18px' }}>
+          <p className='text'>
             Copyright © 2020 Scandilicious - All Rights Reserved.
           </p>
         </div>
