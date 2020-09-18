@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/scandilicious/static/css/main.be1b9c6d.chunk.css",
-    "main.js": "/scandilicious/static/js/main.a30ef9e3.chunk.js",
-    "main.js.map": "/scandilicious/static/js/main.a30ef9e3.chunk.js.map",
+    "main.css": "/scandilicious/static/css/main.31f197ba.chunk.css",
+    "main.js": "/scandilicious/static/js/main.2f1f64f4.chunk.js",
+    "main.js.map": "/scandilicious/static/js/main.2f1f64f4.chunk.js.map",
     "runtime-main.js": "/scandilicious/static/js/runtime-main.3f114952.js",
     "runtime-main.js.map": "/scandilicious/static/js/runtime-main.3f114952.js.map",
     "static/js/2.1e441728.chunk.js": "/scandilicious/static/js/2.1e441728.chunk.js",
     "static/js/2.1e441728.chunk.js.map": "/scandilicious/static/js/2.1e441728.chunk.js.map",
     "index.html": "/scandilicious/index.html",
-    "precache-manifest.49413d7adebfeebcdc40814dcb47e45f.js": "/scandilicious/precache-manifest.49413d7adebfeebcdc40814dcb47e45f.js",
+    "precache-manifest.d76cb61fd5bc7f25ee2c86a75150db9e.js": "/scandilicious/precache-manifest.d76cb61fd5bc7f25ee2c86a75150db9e.js",
     "service-worker.js": "/scandilicious/service-worker.js",
-    "static/css/main.be1b9c6d.chunk.css.map": "/scandilicious/static/css/main.be1b9c6d.chunk.css.map",
+    "static/css/main.31f197ba.chunk.css.map": "/scandilicious/static/css/main.31f197ba.chunk.css.map",
     "static/js/2.1e441728.chunk.js.LICENSE.txt": "/scandilicious/static/js/2.1e441728.chunk.js.LICENSE.txt",
     "static/media/index.css": "/scandilicious/static/media/third.8a429721.jpg",
     "static/media/logo.png": "/scandilicious/static/media/logo.cd1cbf26.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.3f114952.js",
     "static/js/2.1e441728.chunk.js",
-    "static/css/main.be1b9c6d.chunk.css",
-    "static/js/main.a30ef9e3.chunk.js"
+    "static/css/main.31f197ba.chunk.css",
+    "static/js/main.2f1f64f4.chunk.js"
   ]
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/scandilicious/precache-manifest.49413d7adebfeebcdc40814dcb47e45f.js"
+  "/scandilicious/precache-manifest.d76cb61fd5bc7f25ee2c86a75150db9e.js"
 );
 
 self.addEventListener('message', (event) => {

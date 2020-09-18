@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "70ce888c4760ee50572de3d109993542",
+    "revision": "9742819f5135dc4d24c2ff08b18ac4c7",
     "url": "/scandilicious/index.html"
   },
   {
-    "revision": "175c4ec6a2b03086186b",
-    "url": "/scandilicious/static/css/main.be1b9c6d.chunk.css"
+    "revision": "8be5d3491fedb057450f",
+    "url": "/scandilicious/static/css/main.31f197ba.chunk.css"
   },
   {
     "revision": "293a4d2768c84a95b63c",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/scandilicious/static/js/2.1e441728.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "175c4ec6a2b03086186b",
-    "url": "/scandilicious/static/js/main.a30ef9e3.chunk.js"
+    "revision": "8be5d3491fedb057450f",
+    "url": "/scandilicious/static/js/main.2f1f64f4.chunk.js"
   },
   {
     "revision": "6e0594aac7043be5097b",
