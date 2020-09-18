@@ -5,7 +5,7 @@
   transform: translate(-0%, -0%);
   width: 360px;
   height: 400px;
-  background: #000;
+  background: transparent;
   padding: 1em;
   margin: 1em;
 }
@@ -23,12 +23,13 @@
   transform: translateX(30%); /*100%*/
 }
 .card .details {
+  border: 1px solid ghostwhite;
   position: absolute;
   top: 0;
   left: 0;
   width: 70%; /*100%*/
   height: 100%;
-  background: #ffc107;
+  background: rgb(40, 46, 52);
   transition: 0.5s;
   transform-origin: left;
   transform: perspective(2000px) rotateY(-90deg);

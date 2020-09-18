@@ -77,7 +77,6 @@ const Home = () => {
           style={{
             color: '#ddd',
             backgroundColor: '#282E34',
-            // padding: '50px 80px',
             textAlign: 'center',
           }}
         >
@@ -91,32 +90,9 @@ const Home = () => {
                 padding: '1em',
               }}
             >
-              <Card />
-              <div class='card'>
-                <div class='image'>
-                  <img src='http://1.bp.blogspot.com/-EhPr4LXcywE/Udr594sPHTI/AAAAAAAAAJ4/Tv4y4CBLTPM/s400/Cristina-Otero-2.jpg' />
-                </div>
-                <div class='details'>
-                  <div class='center'>
-                    <h1>
-                      Someone famous
-                      <br />
-                      <span>team leader</span>
-                    </h1>
-                    <p>
-                      Lorem ipsum is simple dummy text on the printing and
-                      typesetting industry.
-                    </p>
-                    <ul>
-                      <li>
-                        <a href='#'>
-                          <p>LÄNK</p>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+              <Card imgSource='https://firebasestorage.googleapis.com/v0/b/scandilious.appspot.com/o/logo%2Flogo_green.png?alt=media&token=64ca827b-8271-48b4-8166-4768872bd7fb' />
+              <Card imgSource='https://firebasestorage.googleapis.com/v0/b/scandilious.appspot.com/o/logo%2Flogo_pinkish.png?alt=media&token=2751e072-5c8b-42da-9cf5-e0e6981c24d4' />
+              <Card imgSource='https://firebasestorage.googleapis.com/v0/b/scandilious.appspot.com/o/logo%2Flogo_blue.png?alt=media&token=6173403e-70d0-44ee-8d2d-0a8b882c53b1' />
             </div>
           </FadeInSection>
         </div>

@@ -1,18 +1,19 @@
 import React from 'react';
 import './Card.css';
 
-const Card = () => {
+const Card = (props) => {
+  const { imgSource } = props;
   return (
     <div class='card'>
       <div class='image'>
-        <img src='http://1.bp.blogspot.com/-EhPr4LXcywE/Udr594sPHTI/AAAAAAAAAJ4/Tv4y4CBLTPM/s400/Cristina-Otero-2.jpg' />
+        <img src={imgSource} />
       </div>
       <div class='details'>
         <div class='center'>
-          <h1>
-            Someone famous
+          <h1 style={{ fontFamily: 'Azonix' }}>
+            Product name
             <br />
-            <span>team leader</span>
+            <span>The product</span>
           </h1>
           <p>
             Lorem ipsum is simple dummy text on the printing and typesetting
@@ -20,9 +21,17 @@ const Card = () => {
           </p>
           <ul>
             <li>
-              <a href='#'>
+              <div
+                className='border'
+                style={{
+                  fontSize: '16px',
+                  padding: '0em 1em',
+                  border: '1px solid black',
+                  cursor: 'pointer',
+                }}
+              >
                 <p>LÄNK</p>
-              </a>
+              </div>
             </li>
           </ul>
         </div>
