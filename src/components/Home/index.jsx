@@ -38,7 +38,13 @@ const Home = () => {
               textAlign: 'justify',
             }}
           >
-            <h3 style={{ textAlign: 'center', fontFamily: 'Azonix' }}>
+            <h3
+              style={{
+                textAlign: 'center',
+                fontFamily: 'Azonix',
+                color: '#A55A5E',
+              }}
+            >
               ABOUT SCANDILICIOUS
             </h3>
             <p className='broed-text'>
@@ -76,7 +82,7 @@ const Home = () => {
         <div
           style={{
             color: '#ddd',
-            backgroundColor: '#282E34',
+            backgroundColor: '#313C40',
             textAlign: 'center',
           }}
         >
@@ -141,24 +147,11 @@ const Home = () => {
           ></i>
         </div>
       </div>
-      {/* <div className='bgimg-4'>
-        <div className='caption'>
-          <span
-            className='border'
-            style={{
-              fontSize: '25px',
-              color: '#f7f7f7',
-            }}
-          >
-            CONTACT US
-          </span>
-        </div>
-      </div> */}
       <div style={{ position: 'relative' }}>
         <div
           style={{
             color: '#ddd',
-            backgroundColor: '#282E34',
+            backgroundColor: '#313C40',
             padding: '50px 80px',
             textAlign: 'center',
           }}
