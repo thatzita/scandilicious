@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/scandilicious/static/css/main.1326e957.chunk.css",
+    "main.css": "/scandilicious/static/css/main.b660bd58.chunk.css",
     "main.js": "/scandilicious/static/js/main.92601c56.chunk.js",
     "main.js.map": "/scandilicious/static/js/main.92601c56.chunk.js.map",
     "runtime-main.js": "/scandilicious/static/js/runtime-main.3f114952.js",
@@ -8,9 +8,9 @@
     "static/js/2.1e441728.chunk.js": "/scandilicious/static/js/2.1e441728.chunk.js",
     "static/js/2.1e441728.chunk.js.map": "/scandilicious/static/js/2.1e441728.chunk.js.map",
     "index.html": "/scandilicious/index.html",
-    "precache-manifest.17e148b1f83e3779bb46e9d5cb5b0632.js": "/scandilicious/precache-manifest.17e148b1f83e3779bb46e9d5cb5b0632.js",
+    "precache-manifest.c314f65abd5fca54ca7dbd40d340d4d7.js": "/scandilicious/precache-manifest.c314f65abd5fca54ca7dbd40d340d4d7.js",
     "service-worker.js": "/scandilicious/service-worker.js",
-    "static/css/main.1326e957.chunk.css.map": "/scandilicious/static/css/main.1326e957.chunk.css.map",
+    "static/css/main.b660bd58.chunk.css.map": "/scandilicious/static/css/main.b660bd58.chunk.css.map",
     "static/js/2.1e441728.chunk.js.LICENSE.txt": "/scandilicious/static/js/2.1e441728.chunk.js.LICENSE.txt",
     "static/media/index.css": "/scandilicious/static/media/third.8a429721.jpg",
     "static/media/logo.png": "/scandilicious/static/media/logo.cd1cbf26.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.3f114952.js",
     "static/js/2.1e441728.chunk.js",
-    "static/css/main.1326e957.chunk.css",
+    "static/css/main.b660bd58.chunk.css",
     "static/js/main.92601c56.chunk.js"
   ]
 }
